@@ -1,0 +1,12 @@
+.pack-item {
+  position: relative;
+  padding: 30px 25px;
+  background: #FFFFFF;
+  box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+  transition: .5s;
+}
+
+.btn-color-secondary {
+  background-color: #efeeb7;
+  color: var(--secondary) !important;
+}

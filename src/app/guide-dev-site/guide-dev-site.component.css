@@ -1,0 +1,68 @@
+.bg-primary {
+  background-color: var(--secondary) !important;
+  border-color: #F7FAFF
+}
+
+.bg-primary:hover {
+  background-color: var(--light) !important;
+  color: var(--secondary) !important;
+  border-color: #F7FAFF
+}
+
+.text-primary {
+  color: var(--primary) !important;
+}
+
+.btn-primary {
+  background-color: var(--primary) !important;
+}
+
+.btn-outline-primary {
+  color: var(--primary) !important;
+}
+
+.btn-outline-primary:hover {
+  color: #fff;
+}
+
+.btn-secondary {
+  background-color: var(--secondary) !important;
+}
+
+.btn-color-secondary {
+  background-color: #efeeb7;
+  color: var(--secondary) !important;
+  font-family: "Berlin Sans FB";
+}
+
+.pack-item {
+  position: relative;
+  padding: 30px 25px;
+  background: #FFFFFF;
+  box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+  transition: .5s;
+}
+
+.btn-pack {
+  width: 400px;
+}
+
+.calendly-contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 320px;
+  height: 700px;
+}
+
+@media (max-width: 992px) {
+  .row {
+    display: block;
+  }
+
+  .col-6 {
+    margin: 50px auto;
+  }
+}
+
+

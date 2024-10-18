@@ -1,0 +1,19 @@
+.btn-color {
+  background-color: var(--secondary);
+}
+
+.btn-color:hover {
+  background-color: var(--light);
+  font-color: var(--primary);
+}
+
+.bg-primary {
+  background-color: var(--secondary) !important;
+  border-color: #F7FAFF
+}
+
+.bg-primary:hover {
+  background-color: var(--light) !important;
+  color: var(--secondary) !important;
+  border-color: #F7FAFF
+}
