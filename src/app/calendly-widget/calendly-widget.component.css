@@ -1,0 +1,7 @@
+.calendly-contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 320px;
+  height: 700px;
+}
