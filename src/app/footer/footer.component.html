@@ -8,17 +8,14 @@
         <p><i class="fa fa-phone-alt me-3"></i>(+33) 5 70 33 11 74</p>
         <p><i class="fa fa-envelope me-3"></i>contact-webcome&#64;outlook.com</p>
         <div class="d-flex pt-2">
-          <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-          <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-          <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
           <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>
           <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
         </div>
       </div>
       <div class="col-md-6 col-lg-3">
         <h5 class="text-white mb-4">Mentions Légales</h5>
-        <a class="btn btn-link" href="/about">A Propos De Nous</a>
-        <a class="btn btn-link" href="/contact">Contactez-Nous</a>
+        <a class="btn btn-link" (click)="handlePage('/about')">A Propos De Nous</a>
+        <a class="btn btn-link" (click)="handlePage('/contact')">Contactez-Nous</a>
         <a class="btn btn-link" href="">Mentions Légales</a>
         <a class="btn btn-link" href="">Termes & Conditions</a>
       </div>
@@ -31,25 +28,13 @@
           <div class="col-4">
             <img class="img-fluid" src="assets/img/initiative-rennes.png" alt="Image">
           </div>
-          <div class="col-4">
-            <img class="img-fluid" src="assets/img/initiative-rennes.png" alt="Image">
-          </div>
-          <div class="col-4">
-            <img class="img-fluid" src="assets/img/initiative-rennes.png" alt="Image">
-          </div>
-          <div class="col-4">
-            <img class="img-fluid" src="assets/img/initiative-rennes.png" alt="Image">
-          </div>
-          <div class="col-4">
-            <img class="img-fluid" src="assets/img/initiative-rennes.png" alt="Image">
-          </div>
         </div>
       </div>
       <div class="col-md-6 col-lg-3">
         <h5 class="text-white mb-4">Guides</h5>
-        <a class="btn btn-link " href="/guide/dev-seo">Qu'est-ce que le SEO</a>
-        <a class="btn btn-link" href="/guide/dev-sea">Qu'est-ce que le SEA</a>
-        <a class="btn btn-link" href="/guide/dev-site" >Création De Site Internet</a>
+        <a class="btn btn-link" (click)="handlePage('/guide/dev-seo')">Qu'est-ce que le SEO</a>
+        <a class="btn btn-link" (click)="handlePage('/guide/dev-sea')">Qu'est-ce que le SEA</a>
+        <a class="btn btn-link" (click)="handlePage('/guide/dev-site')">Création De Site Internet</a>
       </div>
     </div>
   </div>

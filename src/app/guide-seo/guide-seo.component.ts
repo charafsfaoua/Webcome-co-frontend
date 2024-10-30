@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-guide-seo',
@@ -7,6 +7,13 @@ import { Component } from '@angular/core';
   templateUrl: './guide-seo.component.html',
   styleUrl: './guide-seo.component.css'
 })
-export class GuideSeoComponent {
+export class GuideSeoComponent implements OnInit {
+
+  ngOnInit(): void {
+    window.scroll({
+      top: 0,
+      behavior: 'smooth'
+    });
+  }
 
 }

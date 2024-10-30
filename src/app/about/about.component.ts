@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {Router, RouterLink} from "@angular/router";
+import {RouterLink} from "@angular/router";
 
 @Component({
   selector: 'app-about',
@@ -12,11 +12,11 @@ import {Router, RouterLink} from "@angular/router";
 })
 export class AboutComponent implements OnInit {
 
-  constructor(private readonly router: Router) {
-  }
-
   ngOnInit(): void {
-
+    window.scroll({
+      top: 0,
+      behavior: 'smooth'
+    });
   }
 
 }

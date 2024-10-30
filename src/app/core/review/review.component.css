@@ -37,3 +37,11 @@
   box-shadow: 0 0 45px rgba(0, 0, 0, .08);
   transition: .5s;
 }
+
+@media (max-width: 992px) {
+  .images {
+    display: block;
+    transition: 0s;
+    animation-name: none;
+  }
+}

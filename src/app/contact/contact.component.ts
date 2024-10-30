@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {Router, RouterLink} from "@angular/router";
 import {CalendlyWidgetComponent} from "../calendly-widget/calendly-widget.component";
 
@@ -12,9 +12,15 @@ import {CalendlyWidgetComponent} from "../calendly-widget/calendly-widget.compon
   templateUrl: './contact.component.html',
   styleUrl: './contact.component.css'
 })
-export class ContactComponent {
+export class ContactComponent implements OnInit {
 
   constructor(private readonly router: Router) {
   }
 
+  ngOnInit(): void {
+    window.scroll({
+      top: 0,
+      behavior: 'smooth'
+    });
+  }
 }

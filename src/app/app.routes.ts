@@ -3,6 +3,9 @@ import {AboutComponent} from "./about/about.component";
 import {ServicesComponent} from "./services/services.component";
 import {ContactComponent} from "./contact/contact.component";
 import {HomeComponent} from "./home/home.component";
+import {GuideDevSiteComponent} from "./guide-dev-site/guide-dev-site.component";
+import {GuideSeaComponent} from "./guide-sea/guide-sea.component";
+import {GuideSeoComponent} from "./guide-seo/guide-seo.component";
 
 export const routes: Routes = [
   {
@@ -23,20 +26,14 @@ export const routes: Routes = [
   },
   {
     path: 'guide/dev-site',
-    loadComponent: () =>
-      import('./guide-dev-site/guide-dev-site.component')
-        .then(gdv => gdv.GuideDevSiteComponent)
+    component: GuideDevSiteComponent
   },
   {
     path: 'guide/dev-sea',
-    loadComponent: () =>
-      import('./guide-sea/guide-sea.component')
-        .then(gds => gds.GuideSeaComponent)
+    component: GuideSeaComponent
   },
   {
     path: 'guide/dev-seo',
-    loadComponent: () =>
-      import('./guide-seo/guide-seo.component')
-        .then(gds => gds.GuideSeoComponent)
+   component: GuideSeoComponent
   }
 ];
