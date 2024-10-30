@@ -30,4 +30,8 @@ export class HomeComponent {
     this.router.navigate(['/contact']).then(r => true);
   }
 
+  handleAboutPage() {
+    this.router.navigate(['/about']).then(r => true);
+  }
+
 }

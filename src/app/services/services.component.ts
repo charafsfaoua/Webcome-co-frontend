@@ -20,4 +20,8 @@ export class ServicesComponent {
 
   constructor(private readonly router: Router) {
   }
+
+  handleContactPage() {
+    this.router.navigate(['/contact']).then(r => true);
+  }
 }
