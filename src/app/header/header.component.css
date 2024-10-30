@@ -17,3 +17,9 @@
   color: var(--secondary) !important;
   border-color: #F7FAFF
 }
+
+@media (max-width: 991.98px) {
+  img {
+    display: none !important;
+  }
+}

@@ -1,0 +1,39 @@
+
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.images {
+  display: flex;
+  animation-duration: 10s;
+  animation-name: lab;
+  animation-iteration-count: infinite;
+}
+
+@keyframes lab {
+  0% {
+    transform: translateX(-300px);
+  }
+  25% {
+    transform: translateX(-600px);
+  }
+  60% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(-300px);
+  }
+
+}
+
+.review-item {
+  position: relative;
+  height: 350px;
+  padding: 30px 25px;
+  background: #FFFFFF;
+  box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+  transition: .5s;
+}

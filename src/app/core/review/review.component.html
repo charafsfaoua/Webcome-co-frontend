@@ -1,0 +1,24 @@
+@if (reviews.length) {
+  <div class="overflow-hidden">
+    <div class="section-title position-relative text-center mb-5 pb-2 wow fadeInUp" data-wow-delay="0.1s">
+      <h6 class="position-relative d-inline text-primary ps-4">{{ sectionTitleReview }}</h6>
+    </div>
+    <div class="body wow fadeInUp" data-wow-delay="0.1s">
+      <img src="assets/img/satisfaction-100.png" width="140"  alt="Logo">
+    </div>
+    <div class="body wow fadeInUp" data-wow-delay="0.1s">
+      <div class="images">
+        <ng-container *ngFor="let review of reviews">
+          <div class="col-lg-4 col-md-5 wow zoomIn" data-wow-delay="0.1s">
+            <div class="review-item d-flex flex-column justify-content-center text-center rounded m-2">
+              <div class="service-icon flex-shrink-0">
+                <i class="fa {{ review.image }} fa-2x text-primary"></i>
+              </div>
+              <p>{{ review.description }}</p>
+            </div>
+          </div>
+        </ng-container>
+      </div>
+    </div>
+  </div>
+}
