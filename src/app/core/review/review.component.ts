@@ -1,12 +1,13 @@
 import {Component, Input} from '@angular/core';
-import {NgForOf} from "@angular/common";
+import {NgForOf, NgOptimizedImage} from "@angular/common";
 import {Review} from "../interface/review";
 
 @Component({
   selector: 'app-review',
   standalone: true,
   imports: [
-    NgForOf
+    NgForOf,
+    NgOptimizedImage
   ],
   templateUrl: './review.component.html',
   styleUrl: './review.component.css'

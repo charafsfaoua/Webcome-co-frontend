@@ -22,8 +22,8 @@ export class ServiceComponent {
   constructor(private readonly router: Router) {
   }
 
-  handleClickService() {
-    this.router.navigate(['/services']).then(r => true);
+  handleClickService(routerLink: string) {
+    this.router.navigate([routerLink]).then(r => true);
   }
 
 }

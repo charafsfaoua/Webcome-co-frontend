@@ -1,5 +1,6 @@
 export class Services {
   title!: string;
   description!: string;
-  faIcon!: string
+  faIcon!: string;
+  routerLink!: string
 }

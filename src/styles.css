@@ -189,7 +189,7 @@ h6,
 /*** Hero Header ***/
 .hero-header {
   background: url(../src/assets/img/image.png);
-  background-repeat: no-repeat;
+  background-repeat: round;
 }
 
 

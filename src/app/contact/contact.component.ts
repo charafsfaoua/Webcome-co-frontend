@@ -14,9 +14,6 @@ import {CalendlyWidgetComponent} from "../calendly-widget/calendly-widget.compon
 })
 export class ContactComponent implements OnInit {
 
-  constructor(private readonly router: Router) {
-  }
-
   ngOnInit(): void {
     window.scroll({
       top: 0,
