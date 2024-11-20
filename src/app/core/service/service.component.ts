@@ -1,5 +1,5 @@
 import {Component, Input} from '@angular/core';
-import {NgForOf, NgIf} from "@angular/common";
+import {NgForOf, NgIf, NgOptimizedImage} from "@angular/common";
 import {Services} from "../interface/services";
 import {Router, RouterLink} from "@angular/router";
 
@@ -9,7 +9,8 @@ import {Router, RouterLink} from "@angular/router";
   imports: [
     NgIf,
     NgForOf,
-    RouterLink
+    RouterLink,
+    NgOptimizedImage
   ],
   templateUrl: './service.component.html',
   styleUrl: './service.component.css'

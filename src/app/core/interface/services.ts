@@ -3,4 +3,5 @@ export class Services {
   description!: string;
   faIcon!: string;
   routerLink!: string
+  isBestSeller!: boolean;
 }

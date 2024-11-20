@@ -1,0 +1,20 @@
+
+
+.best-seller {
+  z-index: 1;
+  position: absolute;
+  margin-bottom: 118% !important;
+}
+
+@media (max-width: 1201px) {
+  best-seller {
+    display: none;
+  }
+}
+
+
+@media (max-width: 768px) {
+  best-seller {
+    margin-bottom: 87% !important;
+  }
+}

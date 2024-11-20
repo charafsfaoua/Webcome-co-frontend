@@ -6,6 +6,9 @@ import {HomeComponent} from "./home/home.component";
 import {GuideDevSiteComponent} from "./guide-dev-site/guide-dev-site.component";
 import {GuideSeaComponent} from "./guide-sea/guide-sea.component";
 import {GuideSeoComponent} from "./guide-seo/guide-seo.component";
+import {CareerComponent} from "./career/career.component";
+import {MentionsLegalsComponent} from "./Cgu/mentions-legals/mentions-legals.component";
+import {TermesConditionsComponent} from "./Cgu/termes-conditions/termes-conditions.component";
 
 export const routes: Routes = [
   {
@@ -25,15 +28,27 @@ export const routes: Routes = [
     component: ContactComponent
   },
   {
-    path: 'guide/dev-site',
+    path: 'career',
+    component: CareerComponent
+  },
+  {
+    path: 'dev-site',
     component: GuideDevSiteComponent
   },
   {
-    path: 'guide/dev-sea',
+    path: 'dev-sea',
     component: GuideSeaComponent
   },
   {
-    path: 'guide/dev-seo',
-   component: GuideSeoComponent
+    path: 'dev-seo',
+    component: GuideSeoComponent
+  },
+  {
+    path: 'mentionsLegals',
+    component: MentionsLegalsComponent
+  },
+  {
+    path: 'termsConditions',
+    component: TermesConditionsComponent
   }
 ];

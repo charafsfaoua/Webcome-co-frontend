@@ -1,14 +1,15 @@
 <div class="py-5 btn-primary hero-header mb-5">
   <div class="container text-center my-5 py-5 px-lg-5">
-      <h3 class="text-primary mb-4 animated zoomIn">
-        <i class="fa fa-rocket fa-1x text-secondary"></i> &ensp; Agence de Marketing Digital
-        <br> <i class="fa fa-globe fa-1x text-secondary"></i> &ensp; Création de sites web & stratégie digitale.
-        <br> <i class="fa fa-angle-double-up fa-1x text-secondary"></i> &ensp; Boostez vos ventes et votre présence en ligne !
-      </h3>
-      <a class="btn bg-primary text-white py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft"
-         (click)="handleContactPage()">Contactez-nous !</a>
-      <a class="btn bg-primary text-white py-sm-3 px-sm-5 rounded-pill animated slideInRight"
-         (click)="handleAboutPage()">Nous découvrir</a>
+    <h3 class="text-primary mb-4 animated zoomIn">
+      <i class="fa fa-rocket fa-1x text-secondary"></i> &ensp; Agence de Marketing Digital
+      <br> <i class="fa fa-globe fa-1x text-secondary"></i> &ensp; Création de sites web & stratégie digitale.
+      <br> <i class="fa fa-angle-double-up fa-1x text-secondary"></i> &ensp; Boostez vos ventes et votre présence en
+      ligne !
+    </h3>
+    <a class="btn bg-primary text-white py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft"
+       (click)="handleContactPage()">Contactez-nous !</a>
+    <a class="btn bg-primary text-white py-sm-3 px-sm-5 rounded-pill animated slideInRight"
+       (click)="handleAboutPage()">Nous découvrir</a>
   </div>
 </div>
 
@@ -35,7 +36,7 @@
         </ul>
         <div class="fw-bold mb-2 pb-2"> Avec nous, vous obtenez des résultats rapides et mesurables. Ne laissez plus
           votre croissance au hasard :
-          contactez Webcome & co et passez à la vitesse supérieure.
+          contactez Webcome & Co et passez à la vitesse supérieure.
         </div>
         <div class="row g-3">
           <div class="col-sm-6">
@@ -49,12 +50,16 @@
         </div>
         <div class="d-flex align-items-center mt-4">
           <a class="btn btn-primary rounded-pill px-4 me-3" href="">En Savoir plus</a>
-          <a class="btn btn-outline-primary btn-square me-3" href=""><i class="fab fa-instagram"></i></a>
-          <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
+          <a class="btn btn-outline-primary btn-square me-3"
+             href="https://www.linkedin.com/company/webcomeandco/about/?viewAsMember=true">
+            <i class="fab fa-instagram"></i></a>
+          <a class="btn btn-outline-primary btn-square" href="https://www.instagram.com/webcomeco/">
+            <i class="fab fa-linkedin-in"></i></a>
         </div>
       </div>
       <div class="col-lg-6">
-        <img class="img-fluid wow zoomIn mt-5" data-wow-delay="0.5s" src="assets/img/img-1.png">
+        <img class="img-fluid wow zoomIn mt-5" data-wow-delay="0.5s" ngSrc="assets/img/img-1.png" height="2001"
+             width="3000">
       </div>
     </div>
   </div>
@@ -69,15 +74,7 @@
 </app-service>
 <!-- Service End -->
 
-<!-- bar logos partenaires  -->
-<app-review
-  [sectionTitleReview]="'Avis clients'"
-  [reviews]="reviews"
-></app-review>
-
-<!-- end logos partenaires  -->
-
-<!--  Stratégie  -->
+<!--  Stratégie avoir si on change pas pour une image sur canva  -->
 
 <div class="container-xxl py-5">
   <div class="container px-lg-5">
@@ -149,91 +146,38 @@
         </div>
       </div>
       <!-- end setp -->
-
     </div>
   </div>
 </div>
-
 <!--  end Stratégie  -->
+
+<!-- comments -->
+<app-review
+  [sectionTitleReview]="'Avis clients'"
+  [reviews]="reviews"
+></app-review>
+<!-- end comments  -->
+
 <div class="bar-title">
   <div class="wow fadeInUp" data-wow-delay="0.1s">
     <h1 class="text-center text-white m-3"> Profitez de cette opportunité unique pour booster votre <br> business !
     </h1>
   </div>
   <div class="wow fadeInUp">
-    <a class="btn bg-primary text-white py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft m-3" (click)="handleContactPage()">Lançons ensemble votre réussite numérique </a>
+    <a class="btn bg-primary text-white py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft m-3"
+       (click)="handleContactPage()">Lançons ensemble votre réussite numérique </a>
   </div>
 </div>
 
-<!-- Team Start -->
-<div class="container-xxl py-5">
-  <div class="container px-lg-5">
-    <div class="section-title position-relative text-center mb-5 pb-2 wow fadeInUp" data-wow-delay="0.1s">
-      <h6 class="position-relative d-inline text-primary ps-4">Notre Equipe</h6>
-      <h2 class="mt-2">Rencontrez Les Membres De Notre Equipe</h2>
+<div class="container-xl pt-5">
+    <div class="position-relative text-center wow fadeInUp" data-wow-delay="0.1s">
+      <h1 class="text-white"><span class="btn-color-secondary">Une audit gratuit de 30 minutes !</span></h1>
     </div>
-    <div class="row g-4">
-      <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-        <div class="team-item">
-          <div class="d-flex">
-            <div class="flex-shrink-0 d-flex flex-column align-items-center mt-4 pt-5" style="width: 75px;">
-              <a class="btn btn-square text-primary bg-white my-1" href=""><i class="fab fa-instagram"></i></a>
-              <a class="btn btn-square text-primary bg-white my-1" href=""><i class="fab fa-linkedin-in"></i></a>
-            </div>
-            <img class="img-fluid rounded w-100" src="assets/img/team-3.jpg" alt="">
-          </div>
-          <div class="px-4 py-3">
-            <h5 class="fw-bold m-0">Charaf SFaoua</h5>
-            <small>Co-Fondateur</small>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
-        <div class="team-item">
-          <div class="d-flex">
-            <div class="flex-shrink-0 d-flex flex-column align-items-center mt-4 pt-5" style="width: 75px;">
-              <a class="btn btn-square text-primary bg-white my-1" href=""><i class="fab fa-instagram"></i></a>
-              <a class="btn btn-square text-primary bg-white my-1" href=""><i class="fab fa-linkedin-in"></i></a>
-            </div>
-            <img class="img-fluid rounded w-100" src="assets/img/team-3.jpg" alt="">
-          </div>
-          <div class="px-4 py-3">
-            <h5 class="fw-bold m-0">Théo Béthencourt</h5>
-            <small>Co-Fondateur</small>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
-        <div class="team-item">
-          <div class="d-flex">
-            <div class="flex-shrink-0 d-flex flex-column align-items-center mt-4 pt-5" style="width: 75px;">
-              <a class="btn btn-square text-primary bg-white my-1" href=""><i class="fab fa-instagram"></i></a>
-              <a class="btn btn-square text-primary bg-white my-1" href=""><i class="fab fa-linkedin-in"></i></a>
-            </div>
-            <img class="img-fluid rounded w-100" src="assets/img/team-3.jpg" alt="">
-          </div>
-          <div class="px-4 py-3">
-            <h5 class="fw-bold m-0">Lowencia Diony</h5>
-            <small>Assistante de Direction</small>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
-        <div class="team-item">
-          <div class="d-flex">
-            <div class="flex-shrink-0 d-flex flex-column align-items-center mt-4 pt-5" style="width: 75px;">
-              <a class="btn btn-square text-primary bg-white my-1" href=""><i class="fab fa-instagram"></i></a>
-              <a class="btn btn-square text-primary bg-white my-1" href=""><i class="fab fa-linkedin-in"></i></a>
-            </div>
-            <img class="img-fluid rounded w-100" src="assets/img/team-3.jpg" alt="">
-          </div>
-          <div class="px-4 py-3">
-            <h5 class="fw-bold m-0">Tasnime Badi</h5>
-            <small>Assistante Comptable</small>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+    <app-calendly-widget></app-calendly-widget>
 </div>
+
+<!-- Team Start -->
+<app-team
+  [teamsItem]="team"
+></app-team>
 <!-- Team End -->

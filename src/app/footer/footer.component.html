@@ -5,36 +5,39 @@
       <div class="col-md-6 col-lg-3">
         <h5 class="text-white mb-4">Contact</h5>
         <p><i class="fa fa-map-marker-alt me-3"></i>Rennes, France </p>
-        <p><i class="fa fa-phone-alt me-3"></i>(+33) 5 70 33 11 74</p>
+        <p><i class="fa fa-phone-alt me-3"></i>(+33) 7 62 54 09 78</p>
         <p><i class="fa fa-envelope me-3"></i>contact-webcome&#64;outlook.com</p>
         <div class="d-flex pt-2">
-          <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>
-          <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+          <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/webcomeco">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a class="btn btn-outline-light btn-social"
+             href="https://www.linkedin.com/company/webcomeandco/about/?viewAsMember=true">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
         </div>
       </div>
       <div class="col-md-6 col-lg-3">
         <h5 class="text-white mb-4">Mentions Légales</h5>
         <a class="btn btn-link" (click)="handlePage('/about')">A Propos De Nous</a>
         <a class="btn btn-link" (click)="handlePage('/contact')">Contactez-Nous</a>
-        <a class="btn btn-link" href="">Mentions Légales</a>
-        <a class="btn btn-link" href="">Termes & Conditions</a>
+        <a class="btn btn-link" (click)="handlePage('/mentionsLegals')">Mentions Légales</a>
+        <a class="btn btn-link" (click)="handlePage('/termsConditions')">Termes & Conditions</a>
       </div>
       <div class="col-md-6 col-lg-3">
         <h5 class="text-white mb-4">Partenaires</h5>
         <div class="row g-2">
           <div class="col-4">
-            <img class="img-fluid" src="assets/img/réseau_entreprendre.png" alt="Image">
           </div>
           <div class="col-4">
-            <img class="img-fluid" src="assets/img/initiative-rennes.png" alt="Image">
           </div>
         </div>
       </div>
       <div class="col-md-6 col-lg-3">
         <h5 class="text-white mb-4">Guides</h5>
-        <a class="btn btn-link" (click)="handlePage('/guide/dev-seo')">Qu'est-ce que le SEO</a>
-        <a class="btn btn-link" (click)="handlePage('/guide/dev-sea')">Qu'est-ce que le SEA</a>
-        <a class="btn btn-link" (click)="handlePage('/guide/dev-site')">Création De Site Internet</a>
+        <a class="btn btn-link" (click)="handlePage('/dev-seo')">Qu'est-ce que le SEO</a>
+        <a class="btn btn-link" (click)="handlePage('/dev-sea')">Qu'est-ce que le SEA</a>
+        <a class="btn btn-link" (click)="handlePage('/dev-site')">Création De Site Internet</a>
       </div>
     </div>
   </div>

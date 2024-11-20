@@ -1,0 +1,102 @@
+<div class="py-5 btn-primary mb-5">
+  <div class="container my-5 py-5 px-lg-5">
+    <div class="align-items-center">
+      <div class="col-12 text-center">
+        <h1 class="text-white animated zoomIn mt-5">Nos dernières offres d’emplois</h1>
+        <div class="wow fadeInUp">
+          <a class="btn bg-primary text-white py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft m-3"
+          >Proposez un candidature spontanée </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+@if (!isConfirmed) {
+  <div class="container">
+    <div class="row">
+      <h1 class="animated zoomIn text-center">J'envoie <span
+        class="btn-color-secondary">une candidature spontanée</span></h1>
+      <div class="row justify-content-md-center">
+        <form [formGroup]="objectCandidatureForm" name="contact" method="post" data-netlify="true">
+          <div class="row m-2 p-2">
+            <div class="col-6">
+              <div class="input-group input-group-lg">
+                <label class="input-group-text" id="name">Nom</label>
+                <input type="text" class="form-control" formControlName="name" name="name"
+                       aria-label="Sizing example input"
+                       aria-describedby="inputGroup-sizing-lg"
+                       placeholder="Name">
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="input-group input-group-lg">
+                <label class="input-group-text" id="phone">Téléphone</label>
+                <input type="tel" class="form-control" formControlName="phone" name="phone"
+                       aria-label="Sizing example input"
+                       aria-describedby="inputGroup-sizing-lg"
+                       placeholder="Phone">
+              </div>
+            </div>
+          </div>
+
+          <div class="row m-2 p-2">
+            <div class="input-group input-group-lg">
+              <label class="input-group-text" id="email">Email</label>
+              <input type="tel" class="form-control" formControlName="email" name="email"
+                     aria-label="Sizing example input"
+                     aria-describedby="inputGroup-sizing-lg"
+                     placeholder="name@example.com">
+            </div>
+          </div>
+
+          <div class="row m-2 p-2">
+            <div class="input-group input-group-lg">
+            <textarea class="form-control"
+                      formControlName="message"
+                      name="message"
+                      placeholder="Décrivez nous votre profil, vos motivations à travailler chez nous..."
+                      id="floatingTextarea2" style="height: 100px"></textarea>
+            </div>
+          </div>
+
+          <div class="row m-2 p-2">
+            <div class="input-group input-group-lg">
+              <input
+                type="file"
+                class="form-control"
+                formControlName="CV"
+                name="CV"
+                aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-lg"
+                placeholder="Parcourir...">
+            </div>
+          </div>
+        </form>
+        <div class="col-6 text-center">
+          <button
+            class="btn text-white py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft m-3"
+            type="submit"
+            [ngClass]="canGo ? 'bg-primary' : 'bg-secondary'"
+            [disabled]="!canGo"
+            (click)="goStepOk()">
+            Envoyer ma candidature
+          </button>
+        </div>
+
+      </div>
+
+
+    </div>
+  </div>
+} @else {
+  <div class="container">
+    <div class="row animated zoomIn text-center">
+      <h1><span
+        class="btn-color-secondary">Votre candidature a bien été envoyée !</span>
+      </h1>
+      <p class="mt-5"> Nous vous remercions de l’intérêt que vous portez à notre entreprise.
+        Si votre dossier est sélectionné, nous aurons le plaisir de vous contacter afin de convenir d’un entretien.</p>
+    </div>
+  </div>
+}

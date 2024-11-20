@@ -12,12 +12,5 @@ import {CalendlyWidgetComponent} from "../calendly-widget/calendly-widget.compon
   templateUrl: './contact.component.html',
   styleUrl: './contact.component.css'
 })
-export class ContactComponent implements OnInit {
-
-  ngOnInit(): void {
-    window.scroll({
-      top: 0,
-      behavior: 'smooth'
-    });
-  }
+export class ContactComponent {
 }

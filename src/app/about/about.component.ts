@@ -10,13 +10,6 @@ import {RouterLink} from "@angular/router";
   templateUrl: './about.component.html',
   styleUrl: './about.component.css'
 })
-export class AboutComponent implements OnInit {
-
-  ngOnInit(): void {
-    window.scroll({
-      top: 0,
-      behavior: 'smooth'
-    });
-  }
+export class AboutComponent  {
 
 }
