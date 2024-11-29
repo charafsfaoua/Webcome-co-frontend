@@ -15,7 +15,7 @@ export const services: Services[] = [
     title: 'Social Ads',
     description: 'Optimisez ou créez des campagnes Social media Ads mieux ciblées et plus performantes ! L’immense audience\n' +
       '            des principaux réseaux sociaux permet d’atteindre votre cible à coup sûr.',
-    faIcon: 'assets/img/social-ads-ico.jpg',
+    faIcon: 'assets/img/fb-inst.png',
     routerLink: '',
     isBestSeller: false
   },
@@ -23,7 +23,7 @@ export const services: Services[] = [
     title: 'Développement de site Web',
     description: 'Création ou modification de site web esthétique, performant et optimisé pour la conversion du trafic grâce à notre agence web\n' +
       '            ! Nous vous aidons à concevoir ou à refondre votre site vitrine et e-commerce.',
-    faIcon: 'assets/img/dev-site-ico.jpg',
+    faIcon: 'assets/img/dev-site.png',
     routerLink: '/guide/dev-site',
     isBestSeller: true
   }
@@ -31,7 +31,7 @@ export const services: Services[] = [
 
 export const reviews: Review[] = [
   {
-    image: 'assets/img/review-1.png',
+    image: 'assets/img/review-1-1.png',
     name:'Marie D.',
     description: '"Je suis absolument ravie de mon nouveau site internet ! L\'équipe de Webcome & Co a su cerner mes besoins et a créé un site qui reflète\n' +
       'parfaitement mon activité. Le design est moderne, épuré et\n' +
@@ -40,7 +40,7 @@ export const reviews: Review[] = [
       'services !"'
   },
   {
-    image: 'assets/img/review-2.png',
+    image: 'assets/img/review-2-2.png',
     name: 'Julien T.',
     description: '"Excellente expérience avec Webcome ! Non seulement ils ont conçu\n' +
       'un site web magnifique pour mon entreprise, mais ils ont également\n' +
@@ -50,7 +50,7 @@ export const reviews: Review[] = [
       'pour mes futurs projets."'
   },
   {
-    image: 'assets/img/review-3.png',
+    image: 'assets/img/review-3-3.png',
     name: 'Sophie L.',
     description: '"Je ne pouvais pas espérer mieux ! Mon site web est à la fois\n' +
       'esthétique et fonctionnel. L\'équipe a su faire preuve d\'une grande\n' +
@@ -59,7 +59,7 @@ export const reviews: Review[] = [
       'conversions. Un grand merci pour leur professionnalisme !"'
   },
   {
-    image: 'assets/img/review-3.png',
+    image: 'assets/img/review-4.png',
     name: 'Bernard F.',
     description: '"Je ne pouvais pas espérer mieux ! Mon site web est à la fois\n' +
       'esthétique et fonctionnel. L\'équipe a su faire preuve d\'une grande\n' +
@@ -72,7 +72,7 @@ export const reviews: Review[] = [
 export const team: Team[] = [
   {
     name: 'Charaf Sfaoua',
-    image: 'assets/img/Théo-profil.png',
+    image: 'assets/img/charaf-profil.png',
     company_title: 'Co-Fondateur',
     link_linkedin: 'https://www.linkedin.com/in/charaf-sfaoua-a00906154/'
   },

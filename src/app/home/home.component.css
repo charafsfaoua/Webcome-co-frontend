@@ -30,6 +30,9 @@
   background-color: var(--secondary) !important;
 }
 
+.my-5 {
+  margin-top: 14rem !important;
+}
 
 .wrapper {
   padding: 80px 0;
@@ -144,5 +147,12 @@
 
   .icon-area i {
     font-size: 50px;
+  }
+}
+
+@media (max-width: 1256px) {
+  .responsive-image {
+    height: auto;
+    width: 100%;
   }
 }

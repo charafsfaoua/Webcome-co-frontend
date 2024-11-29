@@ -140,7 +140,7 @@ h6,
   }
 
   .navbar-light .navbar-brand img {
-    max-height: 45px;
+    max-height: 100px;
     display: block !important;
   }
 }
@@ -189,8 +189,11 @@ h6,
 
 /*** Hero Header ***/
 .hero-header {
-  background: url(../src/assets/img/image.png);
-  background-repeat: round;
+  background: url(../src/assets/img/bann-img.png) no-repeat center;
+  background-size: cover;
+  padding-top:3rem !important;
+  padding-bottom:20rem !important;
+  filter: contrast(60%);
 }
 
 

@@ -1,20 +1,25 @@
-
-
 .best-seller {
   z-index: 1;
   position: absolute;
   margin-bottom: 118% !important;
 }
 
-@media (max-width: 1201px) {
+@media (min-width: 991px) {
   best-seller {
-    display: none;
+    margin-bottom: 160% !important;
   }
 }
 
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   best-seller {
     margin-bottom: 87% !important;
   }
+}
+
+
+  @media (min-width: 600px) {
+    best-seller {
+      margin-bottom: 87% !important;
+    }
 }
