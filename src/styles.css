@@ -549,7 +549,7 @@ h6,
 .btn-color-secondary {
   background-color: var(--secondary) !important;
   color: var(--light) !important;
-  font-family: "Berlin Sans FB";
+  font-family: "Berlin Sans FB", sans-serif !important;
 }
 
 .pack-item {
