@@ -9,6 +9,7 @@ import {CalendlyWidgetComponent} from "../calendly-widget/calendly-widget.compon
 import {TeamComponent} from "../core/team/team.component";
 import {Team} from "../core/interface/team";
 import {NgOptimizedImage} from "@angular/common";
+import {CountersComponent} from "../core/counters/counters.component";
 
 @Component({
   selector: 'app-home',
@@ -18,7 +19,8 @@ import {NgOptimizedImage} from "@angular/common";
     ReviewComponent,
     CalendlyWidgetComponent,
     TeamComponent,
-    NgOptimizedImage
+    NgOptimizedImage,
+    CountersComponent
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'

@@ -8,7 +8,7 @@ export const services: Services[] = [
     description: 'Positionnez votre site sur les premiers résultats de Google pour générer durablement des visites qualifiées\n' +
       '            avec l’accompagnement de notre équipe ! Le SEO est le premier levier d’acquisition de trafic.',
     faIcon: 'assets/img/seo-ico.png',
-    routerLink: '/guide/dev-seo',
+    routerLink: '/dev-seo',
     isBestSeller: false
   },
   {
@@ -16,15 +16,15 @@ export const services: Services[] = [
     description: 'Optimisez ou créez des campagnes Social media Ads mieux ciblées et plus performantes ! L’immense audience\n' +
       '            des principaux réseaux sociaux permet d’atteindre votre cible à coup sûr.',
     faIcon: 'assets/img/fb-inst.png',
-    routerLink: '',
+    routerLink: '/services',
     isBestSeller: false
   },
   {
     title: 'Développement de site Web',
     description: 'Création ou modification de site web esthétique, performant et optimisé pour la conversion du trafic grâce à notre agence web\n' +
       '            ! Nous vous aidons à concevoir ou à refondre votre site vitrine et e-commerce.',
-    faIcon: 'assets/img/dev-site.png',
-    routerLink: '/guide/dev-site',
+    faIcon: 'assets/img/dev-site-2.png',
+    routerLink: '/dev-site',
     isBestSeller: true
   }
 ]

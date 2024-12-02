@@ -1,25 +1,37 @@
 .best-seller {
   z-index: 1;
   position: absolute;
-  margin-bottom: 118% !important;
+  margin-bottom: 118%;
+  width: 27% !important;
+  height: 21% !important;
+  margin-top: 26%;
+  margin-left: 67%;
 }
 
-@media (min-width: 991px) {
-  best-seller {
-    margin-bottom: 160% !important;
+@media (min-width: 992px) and (max-width: 1199px) {
+  .best-seller {
+    margin-bottom: 140%;
+    margin-top: 9%;
+    z-index: 1;
   }
 }
 
-
-@media (min-width: 768px) {
-  best-seller {
-    margin-bottom: 87% !important;
+@media (max-width: 992px) {
+  .best-seller {
+    z-index: 1;
   }
 }
 
+@media (max-width: 767px) {
+  .best-seller {
+    z-index: 1;
+    margin-bottom: 90%;
+  }
+}
 
-  @media (min-width: 600px) {
-    best-seller {
-      margin-bottom: 87% !important;
-    }
+@media (max-width: 500px) {
+  .best-seller {
+    z-index: 1;
+    margin-bottom: 112%
+  }
 }
