@@ -5,8 +5,3 @@
   box-shadow: 0 0 45px rgba(0, 0, 0, .08);
   transition: .5s;
 }
-
-.btn-color-secondary {
-  background-color: #efeeb7;
-  color: var(--secondary) !important;
-}

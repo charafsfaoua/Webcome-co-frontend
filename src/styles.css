@@ -547,8 +547,8 @@ h6,
 }
 
 .btn-color-secondary {
-  background-color: #efeeb7;
-  color: var(--secondary) !important;
+  background-color: var(--secondary) !important;
+  color: var(--light) !important;
   font-family: "Berlin Sans FB";
 }
 

@@ -29,12 +29,6 @@
   background-color: var(--secondary) !important;
 }
 
-.btn-color-secondary {
-  background-color: #efeeb7;
-  color: var(--secondary) !important;
-  font-family: "Berlin Sans FB";
-}
-
 .pack-item {
   position: relative;
   padding: 30px 25px;
