@@ -72,13 +72,13 @@ export const reviews: Review[] = [
 export const team: Team[] = [
   {
     name: 'Charaf Sfaoua',
-    image: 'assets/img/charaf-profil.png',
+    image: 'assets/img/sfaoua-profil.png',
     company_title: 'Co-Fondateur',
     link_linkedin: 'https://www.linkedin.com/in/charaf-sfaoua-a00906154/'
   },
   {
     name: 'Théo Béthencourt',
-    image:'assets/img/Théo-profil.png',
+    image:'assets/img/bethencourt-profil.png',
     company_title: 'Co-Fondateur',
     link_linkedin: 'https://www.linkedin.com/in/th%C3%A9o-b%C3%A9thencourt-9128151ab/'
   },

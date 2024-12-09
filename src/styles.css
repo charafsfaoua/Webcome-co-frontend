@@ -195,6 +195,12 @@ h6,
   padding-bottom: 20rem !important;
 }
 
+/*** Hero Header ***/
+.ban-image {
+  background: url(../src/assets/img/banniere_img.png) no-repeat center;
+  background-size: cover;
+}
+
 
 /*** Section Title ***/
 .section-title::before {

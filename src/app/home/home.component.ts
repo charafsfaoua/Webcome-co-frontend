@@ -28,7 +28,6 @@ import {CountersComponent} from "../core/counters/counters.component";
 export class HomeComponent {
 
   public services: Services[] = services;
-  public reviews: Review[] = reviews;
   public team: Team[] = team;
 
   constructor(private readonly router: Router) {
