@@ -1,7 +1,7 @@
 <div class="container-xxl py-5">
   <div class="container px-lg-5">
     <div class="section-title position-relative text-center mb-5 pb-2 wow fadeInUp" data-wow-delay="0.1s">
-      <h6 class="position-relative d-inline text-primary ps-4">{{ sectionTitleService }}</h6>
+      <h3 class="position-relative d-inline text-primary ps-4">{{ sectionTitleService }}</h3>
     </div>
     <div class="row g-4">
       @if (services.length) {
@@ -9,10 +9,10 @@
           <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.1s">
             <div class="service-item d-flex flex-column justify-content-center text-center">
               @if (service.isBestSeller) {
-                <img class="best-seller" ngSrc="assets/img/best-seller-2.png" height="150" width="130">
+                <img class="best-seller" ngSrc="assets/img/best-seller-2.png" height="130" width="150" loading="lazy">
               }
               <div class="service-icon flex-shrink-0">
-                <i><img ngSrc="{{service.faIcon}}" height="100" width="100"></i>
+                <i><img ngSrc="{{service.faIcon}}" height="100" width="100" loading="lazy"></i>
               </div>
               <h5 class="mb-3">{{ service.title }}</h5>
               <p>{{ service.description }}</p>

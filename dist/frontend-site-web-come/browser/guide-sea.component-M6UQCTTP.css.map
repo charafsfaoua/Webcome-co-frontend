@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/guide-sea/guide-sea.component.css"],
+  "sourcesContent": ["html {\r\n  scroll-behavior: smooth;\r\n}\r\n"],
+  "mappings": "AAAA,KACE,gBAAiB,MACnB",
+  "names": []
+}

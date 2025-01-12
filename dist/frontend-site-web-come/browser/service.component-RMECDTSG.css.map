@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/core/service/service.component.css"],
+  "sourcesContent": [".best-seller {\r\n  z-index: 1;\r\n  position: absolute;\r\n  margin-bottom: 118%;\r\n  width: 27% !important;\r\n  height: 21% !important;\r\n  margin-top: 26%;\r\n  margin-left: 67%;\r\n}\r\n\r\n@media (min-width: 992px) and (max-width: 1199px) {\r\n  .best-seller {\r\n    margin-bottom: 140%;\r\n    margin-top: 9%;\r\n    z-index: 1;\r\n  }\r\n}\r\n\r\n@media (max-width: 992px) {\r\n  .best-seller {\r\n    z-index: 1;\r\n  }\r\n}\r\n\r\n@media (max-width: 767px) {\r\n  .best-seller {\r\n    z-index: 1;\r\n    margin-bottom: 90%;\r\n  }\r\n}\r\n\r\n@media (max-width: 500px) {\r\n  .best-seller {\r\n    z-index: 1;\r\n    margin-bottom: 112%\r\n  }\r\n}\r\n"],
+  "mappings": "AAAA,CAAC,YACC,QAAS,EACT,SAAU,SACV,cAAe,KACf,MAAO,cACP,OAAQ,cACR,WAAY,IACZ,YAAa,GACf,CAEA,OAAO,CAAC,SAAS,EAAE,OAAO,IAAI,CAAC,SAAS,EAAE,QACxC,CAXD,YAYG,cAAe,KACf,WAAY,GACZ,QAAS,CACX,CACF,CAEA,OAAO,CAAC,SAAS,EAAE,OACjB,CAnBD,YAoBG,QAAS,CACX,CACF,CAEA,OAAO,CAAC,SAAS,EAAE,OACjB,CAzBD,YA0BG,QAAS,EACT,cAAe,GACjB,CACF,CAEA,OAAO,CAAC,SAAS,EAAE,OACjB,CAhCD,YAiCG,QAAS,EACT,cAAe,IACjB,CACF",
+  "names": []
+}

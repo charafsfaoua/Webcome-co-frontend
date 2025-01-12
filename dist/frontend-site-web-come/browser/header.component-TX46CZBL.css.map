@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/header/header.component.css"],
+  "sourcesContent": [".btn-color {\r\n  background-color: var(--secondary);\r\n}\r\n\r\n.btn-color:hover {\r\n  background-color: var(--light);\r\n  font-color: var(--primary);\r\n}\r\n\r\n.bg-primary {\r\n  background-color: var(--secondary) !important;\r\n  border-color: #F7FAFF\r\n}\r\n\r\n.bg-primary:hover {\r\n  background-color: var(--light) !important;\r\n  color: var(--secondary) !important;\r\n  border-color: #F7FAFF\r\n}\r\n\r\n.container-xxl {\r\n  height: 100%;\r\n  width: 100%;\r\n}\r\n\r\n@media (max-width: 991.98px) {\r\n  img {\r\n    display: none !important;\r\n  }\r\n}\r\n"],
+  "mappings": "AAAA,CAAC,UACC,iBAAkB,IAAI,YACxB,CAEA,CAJC,SAIS,OACR,iBAAkB,IAAI,SACtB,WAAY,IAAI,UAClB,CAEA,CAAC,WACC,iBAAkB,IAAI,uBACtB,aAAc,OAChB,CAEA,CALC,UAKU,OACT,iBAAkB,IAAI,mBACtB,MAAO,IAAI,uBACX,aAAc,OAChB,CAEA,CAAC,cACC,OAAQ,KACR,MAAO,IACT,CAEA,OAAO,CAAC,SAAS,EAAE,UACjB,IACE,QAAS,cACX,CACF",
+  "names": []
+}

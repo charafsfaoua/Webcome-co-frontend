@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/about/about.component.css"],
+  "sourcesContent": [".bg-primary {\r\n  background-color: var(--secondary) !important;\r\n  border-color: #F7FAFF\r\n}\r\n\r\n.bg-primary:hover {\r\n  background-color: var(--light) !important;\r\n  color: var(--secondary) !important;\r\n  border-color: #F7FAFF\r\n}\r\n\r\n.text-primary {\r\n  color: var(--primary) !important;\r\n}\r\n\r\n.btn-primary {\r\n  background-color: var(--primary) !important;\r\n}\r\n\r\n.btn-outline-primary {\r\n  color: var(--primary) !important;\r\n}\r\n\r\n.btn-outline-primary:hover {\r\n  color: #fff;\r\n}\r\n\r\n.btn-secondary {\r\n  background-color: var(--secondary) !important;\r\n}\r\n\r\n"],
+  "mappings": "AAAA,CAAC,WACC,iBAAkB,IAAI,uBACtB,aAAc,OAChB,CAEA,CALC,UAKU,OACT,iBAAkB,IAAI,mBACtB,MAAO,IAAI,uBACX,aAAc,OAChB,CAEA,CAAC,aACC,MAAO,IAAI,oBACb,CAEA,CAAC,YACC,iBAAkB,IAAI,oBACxB,CAEA,CAAC,oBACC,MAAO,IAAI,oBACb,CAEA,CAJC,mBAImB,OAClB,MAAO,IACT,CAEA,CAAC,cACC,iBAAkB,IAAI,sBACxB",
+  "names": []
+}

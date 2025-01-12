@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/core/review/review.component.css"],
+  "sourcesContent": ["\r\n\r\n.body {\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n}\r\n\r\n.images {\r\n  display: flex;\r\n  animation-duration: 10s;\r\n  animation-name: lab;\r\n  animation-iteration-count: infinite;\r\n}\r\n\r\n@keyframes lab {\r\n  0% {\r\n    transform: translateX(-300px);\r\n  }\r\n  25% {\r\n    transform: translateX(-600px);\r\n  }\r\n  60% {\r\n    transform: translateX(0px);\r\n  }\r\n  100% {\r\n    transform: translateX(-300px);\r\n  }\r\n\r\n}\r\n\r\n.review-item {\r\n  position: relative;\r\n  height: 350px;\r\n  padding: 30px 25px;\r\n  background: #FFFFFF;\r\n  box-shadow: 0 0 45px rgba(0, 0, 0, .08);\r\n  transition: .5s;\r\n}\r\n\r\n@media (max-width: 992px) {\r\n  .images {\r\n    display: block;\r\n    transition: 0s;\r\n    animation-name: none;\r\n  }\r\n}\r\n"],
+  "mappings": "AAEA,CAAC,KACC,QAAS,KACT,gBAAiB,OACjB,YAAa,MACf,CAEA,CAAC,OACC,QAAS,KACT,mBAAoB,IACpB,eAAgB,IAChB,0BAA2B,QAC7B,CAEA,WAJkB,IAKhB,GACE,UAAW,UAAW,OACxB,CACA,IACE,UAAW,UAAW,OACxB,CACA,IACE,UAAW,UAAW,EACxB,CACA,GACE,UAAW,UAAW,OACxB,CAEF,CAEA,CAAC,YACC,SAAU,SACV,OAAQ,MAjCV,QAkCW,KAAK,KACd,WAAY,KACZ,WAAY,EAAE,EAAE,KAAK,UACrB,WAAY,GACd,CAEA,OAAO,CAAC,SAAS,EAAE,OACjB,CAjCD,OAkCG,QAAS,MACT,WAAY,GACZ,eAAgB,IAClB,CACF",
+  "names": []
+}

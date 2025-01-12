@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/guide-seo/guide-seo.component.css"],
+  "sourcesContent": [".pack-item {\r\n  position: relative;\r\n  padding: 30px 25px;\r\n  background: #FFFFFF;\r\n  box-shadow: 0 0 45px rgba(0, 0, 0, .08);\r\n  transition: .5s;\r\n}\r\n"],
+  "mappings": "AAAA,CAAC,UACC,SAAU,SADZ,QAEW,KAAK,KACd,WAAY,KACZ,WAAY,EAAE,EAAE,KAAK,UACrB,WAAY,GACd",
+  "names": []
+}

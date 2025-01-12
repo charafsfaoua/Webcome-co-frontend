@@ -1,4 +1,4 @@
-import {Component, ElementRef, OnInit, ViewChild} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-calendly-widget',
@@ -9,7 +9,7 @@ import {Component, ElementRef, OnInit, ViewChild} from '@angular/core';
 })
 export class CalendlyWidgetComponent implements OnInit {
 
-  url = 'https://calendly.com/sfaoua-webcome/une-consultation-gratuite-sur-votre-projet?back=1&month=2024-12';
+  url = 'https://calendly.com/sfaoua-webcome-tgmc/30min';
 
   constructor() {
   }
@@ -22,6 +22,7 @@ export class CalendlyWidgetComponent implements OnInit {
     });
   }
 }
+
 declare global {
   interface Window {
     Calendly: any;

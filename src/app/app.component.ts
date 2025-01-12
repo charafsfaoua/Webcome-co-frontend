@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component} from '@angular/core';
 import {CommonModule} from '@angular/common';
 import {RouterOutlet} from '@angular/router';
 import {HeaderComponent} from "./header/header.component";
@@ -13,13 +13,6 @@ import {ServicesComponent} from "./services/services.component";
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
-export class AppComponent implements OnInit {
-
-  ngOnInit(): void {
-    window.scroll({
-      top: 0,
-      behavior: 'smooth'
-    });
-  }
+export class AppComponent {
 
 }

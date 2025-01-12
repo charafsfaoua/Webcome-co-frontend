@@ -32,15 +32,15 @@ export const routes: Routes = [
     component: CareerComponent
   },
   {
-    path: 'dev-site',
+    path: 'creation-site-web',
     component: GuideDevSiteComponent
   },
   {
-    path: 'dev-sea',
+    path: 'referencement-sea',
     component: GuideSeaComponent
   },
   {
-    path: 'dev-seo',
+    path: 'referencement-seo',
     component: GuideSeoComponent
   },
   {

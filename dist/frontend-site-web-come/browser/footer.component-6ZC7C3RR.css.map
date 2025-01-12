@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/footer/footer.component.css"],
+  "sourcesContent": [".bg-primary {\r\n  background-color: var(--primary) !important;\r\n}\r\n"],
+  "mappings": "AAAA,CAAC,WACC,iBAAkB,IAAI,oBACxB",
+  "names": []
+}

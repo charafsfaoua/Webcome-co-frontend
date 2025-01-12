@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/career/career.component.css"],
+  "sourcesContent": ["@media (max-width: 992px) {\r\n  .col-6 {\r\n    display: flex;\r\n    flex-direction: column;\r\n    width: 100%;\r\n  }\r\n}\r\n\r\n.footer {\r\n  position: relative;\r\n  bottom: 0;\r\n}\r\n"],
+  "mappings": "AAAA,OAAO,CAAC,SAAS,EAAE,OACjB,CAAC,MACC,QAAS,KACT,eAAgB,OAChB,MAAO,IACT,CACF,CAEA,CAAC,OACC,SAAU,SACV,OAAQ,CACV",
+  "names": []
+}

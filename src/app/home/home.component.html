@@ -3,8 +3,7 @@
     <h3 class="text-dark animated zoomIn">
       <i class="fa fa-rocket fa-1x text-secondary"></i> &ensp; Agence de Marketing Digital
       <br> <i class="fa fa-globe fa-1x text-secondary"></i> &ensp; Création de sites web & stratégie digitale.
-      <br> <i class="fa fa-angle-double-up fa-1x text-secondary"></i> &ensp; Boostez vos ventes et votre présence en
-      ligne !
+      <br> <i class="fa fa-angle-double-up fa-1x text-secondary"></i> &ensp; Boostez vos ventes et votre présence en ligne !
     </h3>
     <a class="btn bg-primary text-white py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft"
        (click)="handleContactPage()">Contactez-nous !</a>
@@ -14,7 +13,6 @@
 </div>
 
 
-<!-- About Start -->
 <div class="container-xxl py-5 mb-4">
   <div class="container px-lg-5">
     <div class="row g-5">
@@ -60,47 +58,31 @@
       </div>
       <div class="col-lg-6">
         <img class="img-fluid wow zoomIn mt-5" data-wow-delay="0.5s" ngSrc="assets/img/about-img.png" height="2001"
-             width="2101">
+             width="2101" [priority]="true" alt="">
       </div>
     </div>
   </div>
 </div>
-<!-- About End -->
 
-
-<!-- Service Start -->
 <app-service
   [sectionTitleService]="'Nos Services'"
   [services]="services">
 </app-service>
-<!-- Service End -->
 
-<!--  Stratégie avoir si on change pas pour une image sur canva  -->
 
 <div class="container-xxl py-5">
   <div class="container px-lg-5">
     <div class="section-title position-relative text-center mb-2 pb-2 wow fadeInUp" data-wow-delay="0.1s">
-      <h6 class="position-relative d-inline ps-4"> Notre Méthodologie </h6>
+      <h3 class="position-relative d-inline text-primary ps-4"> Notre Méthodologie </h3>
     </div>
 
     <div class="section-step">
-      <img ngSrc="assets/img/test-1.png" class="responsive-image" height="700" width="1600" alt="img">
+      <img ngSrc="assets/img/test-1.png" class="responsive-image" height="720" width="1280" alt="img" loading="lazy">
     </div>
   </div>
 </div>
-<!--  end Stratégie  -->
 
-<!-- comments
-<app-review
-  [sectionTitleReview]="'Avis clients'"
-  [reviews]="reviews"
-></app-review>
- end comments  -->
-
-<!-- counters -->
-<app-counters class="m-2">
-</app-counters>
-<!-- counters -->
+<app-counters class="m-2"></app-counters>
 
 <div class="bar-title">
   <div class="wow fadeInUp" data-wow-delay="0.1s">
@@ -120,8 +102,4 @@
   <app-calendly-widget></app-calendly-widget>
 </div>
 
-<!-- Team Start -->
-<app-team
-  [teamsItem]="team"
-></app-team>
-<!-- Team End -->
+<app-team [teamsItem]="team"></app-team>

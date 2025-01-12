@@ -8,7 +8,6 @@ import {NgClass} from "@angular/common";
   selector: 'app-career',
   standalone: true,
   imports: [
-    CalendlyWidgetComponent,
     ReactiveFormsModule,
     NgClass
   ],
